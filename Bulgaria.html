@@ -1,0 +1,107 @@
+<style>
+.square {
+  transform: rotate(45deg);
+  height: 400px;
+  width: 400px;
+  box-shadow:  1px 10px 23px 30px #2B2B2B;
+  position: absolute;
+  left: 378px;
+  top: 189px;
+  z-index:-1
+  border: 10px dashed black;
+ -webkit-animation-name: bg;
+ -webkit-animation-duration: 15s;
+ -webkit-animation-daily:10s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate-reverse;
+  background-image: linear-gradient(to right, white 30%, grey 50%, white 80%);
+
+}
+.btn {
+color: black; 
+font-size: 26px;
+line-height: 16px;
+padding: 3px; border-radius: 
+10px; font-family: Georgia, serif;
+font-weight: 700;
+text-decoration: underline solid rgb(68, 68, 68);
+font-style: italic; font-variant: small-caps;
+text-transform: capitalize;
+background-image: linear-gradient(to bottom, white 10%, green 40%, red 80%);
+box-shadow: yellow 5px 5px 1599px 70px;
+border: 1px solid black;
+ -webkit-animation-name: btn;
+ -webkit-animation-duration: 10s;
+ -webkit-animation-daily:10s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate-reverse;
+
+}
+.btn:hover {
+  
+background-image: linear-gradient(to bottom, white 0%, green 50%, red 90%);
+box-shadow: yellow 7px 10px 15px 5px;
+}
+.btn:active {
+background-image: linear-gradient(to bottom, white 0%, gray 40%, black 70%);
+color: red;
+box-shadow: red 15px 15px 25px 15px;
+}
+.btn{
+  position:fixed;
+ width:3%;
+ padding-top:10px
+  }
+  @keyframes btn {
+  from {
+    color: blue;
+      top:48%;
+  left:30em;
+  
+   }
+  to {
+    width:131px;
+    color: black;
+      top:48%;
+  left:13rem;
+   }
+}
+.square:hover {
+  
+background-image: linear-gradient(to right, white 0%, green 50%, red 90%);
+box-shadow: yellow 7px 10px 15px 5px;
+}
+ @keyframes bg {
+  from {
+    color: black;
+  transform: rotate(0deg);
+  color:black;
+  z-index:-111
+    }
+  to {
+    color: green;
+    transform: rotate(360deg);
+    z-index:-111
+    }
+  }
+ 
+body{
+    background-color: black;
+    }
+    .circle{
+        height: 725px;
+  width: 725px;
+  background-color: #bbb;
+  border-radius: 50%;
+   border-color:white;
+    z-index:-113333;
+    position:absolute;
+    left:205
+      }
+</style>
+ <h1 class="btn">Bulgaria
+</h1>
+ <h1 class="square text"><div class="text">Bulgaria</div>681
+</h1>
+ <h1 class="circle">Bulgaria 
+</h1>
